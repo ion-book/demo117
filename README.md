@@ -1,4 +1,7 @@
-## Repositorio basado en el artículo [Pruebas unitarias: Configuración de entorno](https://www.ion-book.com/blog/ionic2/unit-test-config-ionic/)
+## Repositorio basado en los artículos:
+
+- [Pruebas unitarias: Configuración de entorno](https://www.ion-book.com/blog/ionic2/unit-test-config-ionic/)
+- [Pruebas unitarias: Introducción a Jasmine](https://www.ion-book.com/blog/ionic2/intro-jasmine/)
 
 Este proyecto usa:
 
