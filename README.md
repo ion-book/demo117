@@ -2,6 +2,7 @@
 
 - [Pruebas unitarias: Configuración de entorno](https://www.ion-book.com/blog/ionic2/unit-test-config-ionic/)
 - [Pruebas unitarias: Introducción a Jasmine](https://www.ion-book.com/blog/ionic2/intro-jasmine/)
+- [Pruebas unitarias: Providers](https://www.ion-book.com/blog/ionic2/uni-test-provider/)
 
 Este proyecto usa:
 
