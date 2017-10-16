@@ -28,7 +28,7 @@ fdescribe('Service: UserProvider', () => {
   describe('Test for getAllUsers', () => {
     it('should return users', () => {
       // Arrange
-      const mockResponse = [{
+      const mockResponse = {
         results: [
           {
             "gender": "male",
@@ -40,7 +40,7 @@ fdescribe('Service: UserProvider', () => {
             "email": "samuel.ross@example.com",
           }
         ]
-      }];
+      };
       let dataError, dataResponse;
       // Act
       service.getAllUsers()
@@ -52,7 +52,7 @@ fdescribe('Service: UserProvider', () => {
       const req = httpMock.expectOne(`https://randomuser.me/api/?results=25`);
       req.flush(mockResponse);
       // Assert
-      expect(dataResponse.results.length).toEqual(1);
+      expect(dataResponse.length).toEqual(1);
       expect(req.request.url).toEqual(`https://randomuser.me/api/?results=25`);
       expect(req.request.method).toEqual('GET');
       expect(dataError).toBeUndefined();
